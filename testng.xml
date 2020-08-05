@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySeleniumTestSuite">
+	<!-->parameter name="first-name" value="Cedric" /-->
+	<test name="Simple example">
+		<classes>
+			<class name = "seleniumtest.MavenTestWikipedia"/>
+		</classes>
+	</test>
+</suite>

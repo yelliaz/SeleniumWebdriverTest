@@ -35,8 +35,8 @@ public class MavenTestWikipedia {
 		System.setProperty("webdriver.gecko.driver", System.getenv("GECKOWEBDRIVER") + "//geckodriver");
 
 		FirefoxBinary firefoxBinary = new FirefoxBinary();
-        firefoxBinary.addCommandLineOptions("--headless");
-        firefoxBinary.addCommandLineOptions("--no-sandbox");
+        //firefoxBinary.addCommandLineOptions("--headless");
+        //firefoxBinary.addCommandLineOptions("--no-sandbox");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         firefoxOptions.setBinary(firefoxBinary);
         WebDriver driver = new FirefoxDriver(firefoxOptions);

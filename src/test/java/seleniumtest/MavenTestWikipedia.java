@@ -25,7 +25,7 @@ public class MavenTestWikipedia {
 	  
 	  	//this section is for chrome, no extra settings needed
 		//System.setProperty("webdriver.chrome.driver", "C:\\Yiping_findjob\\Tools\\Selenium_WebDriver\\chromedriver.exe");
-		String chromeResource = "./src/test/resources/drivers/chromedriver.exe";
+		String chromeResource = "./src/test/resources/drivers/chromedriver";
 		System.setProperty("webdriver.chrome.driver", chromeResource);
 		
 		driver = new ChromeDriver();

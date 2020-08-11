@@ -42,15 +42,17 @@ public class MavenTestWikipedia {
         WebDriver driver = new FirefoxDriver(firefoxOptions);
 		
 		driver.get("http://www.wikipedia.org");
-		driver.findElement(By.id("js-link-box-en")).click();
+		//driver.findElement(By.id("js-link-box-en")).click();
 		try {
 			Thread.sleep(5000);
+			/*
 			driver.findElement(By.xpath("//*[@class='frb-icon-btn frb-close']")).click();
 			WebElement searchBox;
 			searchBox = driver.findElement(By.id("searchInput"));
 			searchBox.sendKeys("Software Testing");
 			searchBox.submit();
 			Thread.sleep(5000);
+			*/
 		} catch (Exception e) {
 			
 		}

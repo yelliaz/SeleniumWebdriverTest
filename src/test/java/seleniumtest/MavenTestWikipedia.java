@@ -22,8 +22,8 @@ public class MavenTestWikipedia {
 		System.setProperty("webdriver.gecko.driver", System.getenv("GECKOWEBDRIVER") + "//geckodriver.exe");
 
 		FirefoxBinary firefoxBinary = new FirefoxBinary();
-        firefoxBinary.addCommandLineOptions("--headless");
-        firefoxBinary.addCommandLineOptions("--no-sandbox");
+        //firefoxBinary.addCommandLineOptions("--headless");
+        //firefoxBinary.addCommandLineOptions("--no-sandbox");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         firefoxOptions.setBinary(firefoxBinary);
         driver = new FirefoxDriver(firefoxOptions);
@@ -39,7 +39,7 @@ public class MavenTestWikipedia {
   @AfterTest
   public void afterTest() {
 	  driver.quit();
-	  System.out.println("The testing is finished");
+	  System.out.println("The testing is finished with head mode");
   }
 
 }

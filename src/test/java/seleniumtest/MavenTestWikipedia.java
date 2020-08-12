@@ -19,7 +19,7 @@ public class MavenTestWikipedia {
   @Test
   public void f() {
 
-		System.setProperty("webdriver.gecko.driver", System.getenv("GECKOWEBDRIVER") + "//geckodriver");
+		System.setProperty("webdriver.gecko.driver", System.getenv("GECKOWEBDRIVER") + "//geckodriver.exe");
 
 		FirefoxBinary firefoxBinary = new FirefoxBinary();
         firefoxBinary.addCommandLineOptions("--headless");

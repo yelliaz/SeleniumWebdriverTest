@@ -23,7 +23,7 @@ public class MavenTestWikipedia {
 
 		FirefoxBinary firefoxBinary = new FirefoxBinary();
         //firefoxBinary.addCommandLineOptions("--headless");
-        //firefoxBinary.addCommandLineOptions("--no-sandbox");
+        firefoxBinary.addCommandLineOptions("--no-sandbox");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         firefoxOptions.setBinary(firefoxBinary);
         driver = new FirefoxDriver(firefoxOptions);

@@ -7,7 +7,6 @@
   <name>Selenium Webdriver Test</name>
   
   <dependencies>
-  
   	<dependency>
     	<groupId>org.seleniumhq.selenium</groupId>
     	<artifactId>selenium-java</artifactId>
@@ -20,7 +19,6 @@
     	<version>6.11</version>
     	<scope>test</scope>
 	</dependency>
-	
   </dependencies>
   
   <build>
